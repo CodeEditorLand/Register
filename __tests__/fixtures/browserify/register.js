@@ -1,0 +1,3 @@
+require("../../..").default({
+  ignore: false
+});
