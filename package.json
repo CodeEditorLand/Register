@@ -23,11 +23,11 @@
 		"source-map-support": "0.5.21"
 	},
 	"devDependencies": {
-		"@swc/core": "1.7.26",
+		"@swc/core": "1.7.28",
 		"@types/lodash": "4.17.9",
 		"@types/lodash.clonedeep": "4.5.9",
 		"@types/lodash.escaperegexp": "4.1.9",
-		"@types/node": "22.6.0",
+		"@types/node": "22.7.2",
 		"@types/source-map-support": "0.5.10",
 		"browserify": "17.0.0"
 	}
