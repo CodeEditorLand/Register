@@ -1,27 +1,16 @@
 {
-	"name": "@swc/register",
-	"description": "Super fast alternative for babel-register",
-	"main": "lib/index.js",
-	"browser": {
-		"./lib/node.js": "./lib/browser.js"
-	},
 	"bin": {
 		"swc-node": "./bin/swc-node"
 	},
-	"scripts": {
-		"build": "tsc -d",
-		"prepare": "npm run build"
-	},
-	"jest": {
-		"testPathIgnorePatterns": [
-			"fixtures"
-		]
+	"browser": {
+		"./lib/node.js": "./lib/browser.js"
 	},
 	"dependencies": {
 		"lodash.clonedeep": "4.5.0",
 		"pirates": "4.0.6",
 		"source-map-support": "0.5.21"
 	},
+	"description": "Super fast alternative for babel-register",
 	"devDependencies": {
 		"@swc/core": "1.7.28",
 		"@types/lodash": "4.17.9",
@@ -30,5 +19,16 @@
 		"@types/node": "22.7.3",
 		"@types/source-map-support": "0.5.10",
 		"browserify": "17.0.0"
+	},
+	"jest": {
+		"testPathIgnorePatterns": [
+			"fixtures"
+		]
+	},
+	"main": "lib/index.js",
+	"name": "@swc/register",
+	"scripts": {
+		"build": "tsc -d",
+		"prepare": "npm run build"
 	}
 }
