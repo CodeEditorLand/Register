@@ -1,12 +1,12 @@
 {
+	"name": "swc-register-example",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
 	"dependencies": {
 		"@swc/cli": "0.4.0",
 		"@swc/core": "1.7.28",
 		"@swc/register": "file:../",
 		"lodash": "4.17.21"
-	},
-	"description": "",
-	"main": "index.js",
-	"name": "swc-register-example",
-	"scripts": {}
+	}
 }
