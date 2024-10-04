@@ -6,8 +6,8 @@ import { InputOptions } from "./node";
  * from a compiled swc import.
  */
 
-exports = module.exports = function(...args: InputOptions[]) {
-  return register(...args);
+exports = module.exports = function (...args: InputOptions[]) {
+	return register(...args);
 };
 exports.__esModule = true;
 
