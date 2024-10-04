@@ -13,12 +13,12 @@
 	"description": "Super fast alternative for babel-register",
 	"devDependencies": {
 		"@swc/core": "1.7.28",
-		"@types/lodash": "4.17.9",
+		"@types/lodash": "4.17.10",
 		"@types/lodash.clonedeep": "4.5.9",
 		"@types/lodash.escaperegexp": "4.1.9",
 		"@types/node": "22.7.4",
 		"@types/source-map-support": "0.5.10",
-		"browserify": "17.0.0"
+		"browserify": "17.0.1"
 	},
 	"jest": {
 		"testPathIgnorePatterns": [
