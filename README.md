@@ -1,9 +1,10 @@
-@swc/register
-========
+# @swc/register
+
 One of the ways you can use swc is through the require hook. The require hook
 will bind itself to node's require and automatically compile files on the fly.
 
 ### Install
+
 ```bash
 npm i -D @swc/core @swc/register
 ```
@@ -15,6 +16,7 @@ yarn add --dev @swc/core @swc/register
 ```
 
 ### Usage
+
 ```bash
 require("@swc/register");
 ```
@@ -29,8 +31,9 @@ node -r '@swc/register' <filename>
 
 &nbsp;
 
---------
-*@swc/register* is primarily distributed under the terms of both the [MIT
+---
+
+_@swc/register_ is primarily distributed under the terms of both the [MIT
 license] and the [Apache License (Version 2.0)]. See [COPYRIGHT] for details.
 
 [MIT license]: LICENSE-MIT
