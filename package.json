@@ -16,7 +16,7 @@
 		"@types/lodash": "4.17.10",
 		"@types/lodash.clonedeep": "4.5.9",
 		"@types/lodash.escaperegexp": "4.1.9",
-		"@types/node": "22.7.4",
+		"@types/node": "22.7.5",
 		"@types/source-map-support": "0.5.10",
 		"browserify": "17.0.1"
 	},
