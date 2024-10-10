@@ -12,7 +12,7 @@
 	},
 	"description": "Super fast alternative for babel-register",
 	"devDependencies": {
-		"@swc/core": "1.7.28",
+		"@swc/core": "1.7.35",
 		"@types/lodash": "4.17.10",
 		"@types/lodash.clonedeep": "4.5.9",
 		"@types/lodash.escaperegexp": "4.1.9",
