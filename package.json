@@ -32,18 +32,18 @@
     "./lib/node.js": "./lib/browser.js"
   },
   "peerDependencies": {
-    "@swc/core": "^1.11.31"
+    "@swc/core": "^1.15.43"
   },
   "devDependencies": {
-    "@swc/core": "^1.11.31",
-    "@types/lodash": "^4.17.17",
+    "@swc/core": "^1.15.43",
+    "@types/lodash": "^4.17.24",
     "@types/lodash.clonedeep": "^4.5.9",
     "@types/lodash.escaperegexp": "^4.1.9",
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.1.1",
     "@types/source-map-support": "^0.5.10",
     "browserify": "^17.0.1",
-    "jest": "^30.0.0",
-    "typescript": "^5.8.3"
+    "jest": "^30.4.2",
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
