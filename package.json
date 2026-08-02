@@ -35,11 +35,11 @@
     "@swc/core": "^1.15.43"
   },
   "devDependencies": {
-    "@swc/core": "^1.15.43",
-    "@types/lodash": "^4.17.24",
+    "@swc/core": "^1.15.47",
+    "@types/lodash": "^4.17.25",
     "@types/lodash.clonedeep": "^4.5.9",
     "@types/lodash.escaperegexp": "^4.1.9",
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.1.2",
     "@types/source-map-support": "^0.5.10",
     "browserify": "^17.0.1",
     "jest": "^30.4.2",
